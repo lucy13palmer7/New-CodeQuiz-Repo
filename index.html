@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Code Quiz Homework</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="questions-container" class="hide">
+        <h1>Code Quiz</h1>
+        <div id="questions">Questions</div>
+        <p id="timer">___</p>
+        <div id="answer-buttons" class="btn-grid">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+          <button class="btn">Answer 3</button>
+          <button class="btn">Answer 4</button>
+        </div>
+        <div class="controls">
+          <button id="start-btn" class="btn btn-primary">Start Quiz</button>
+          <button id="next-btn" class="btn btn-warning">Next</button>
+        </div>
+      </div>
+    </div>
+    <div id="game"></div>
+    <h2 id="time"></h2>
+
+    <script src="app.js"></script>
+    <!-- <script src="questions.js"></script> -->
+  </body>
+</html>
